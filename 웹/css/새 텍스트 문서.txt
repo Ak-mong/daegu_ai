@@ -1,8 +1,0 @@
-css의 등장은 html이 가진 디자인 요소를 뺏기 위해 등장
-html이 정보 전달에 전념하게 해줌
-<font color> 이 빨간색으로 표시되는것은
-쓸 순 있지만 권장하지 않아서 생김
-
-ctrl / 하면 코드에 맞는 주석이 나옴
-반응형 디자인
-=media query cheatsheet
