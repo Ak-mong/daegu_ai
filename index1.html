@@ -3,6 +3,32 @@
 <head>
     <title>웹</title>
     <meta charset="utf-8">
+    <style>
+        h1{
+            border-bottom:10px solid red;
+            padding:30px;
+        }
+        @media all and (min-width: 900px){ 
+            body{
+                background-color:rgb(133, 199, 133);
+            }
+        } 
+        #container{
+            display:grid;
+            grid-template-columns: 150px 1fr;
+        }        
+        @media all and (max-width: 900px) {
+            body{
+                background-color:rgb(231, 141, 141);
+            }
+        }
+        body{font-family: 'M PLUS 1', sans-serif;
+            font-family: 'Smokum', cursive; /*body,h1 등 적용하고 싶은 부분{} 넣기*/
+    }
+    </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100&family=Smokum&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
