@@ -1,12 +1,12 @@
 members=['eoging','duru']
 for member in members:
-    print('member',member)
+    print('멤버',member)
 
 members2 = [
     ['egoing','seoul','programer'],
     ['duru','daege','dba']
 ]
-print(members2[0][0])
+print(members2[0][1])
 
 for member in members2:
     print(member[0], member[1])
@@ -18,8 +18,10 @@ for name in egoing2:
     print(egoing2[name])
 
 members3=[
-    {'egoing','seoul','programmer'},
+    {'name':'egoing','city':'seoul','job':'programmer'},
     {'name':'duru', 'city':'daegu','jog':'dba'}
 ] #리스트문
-for memeber in members3:
+for member in members3:
+    print(member)
+for member in members3:
     print(member['name'])
